@@ -1,0 +1,510 @@
+@font-face {
+    font-family: 'gora_free';
+    src: url('./fonts/gora-free-webfont.woff2') format('woff2'),
+         url('./fonts/gora-free-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sans';
+    src: url('./fonts/opensans-bold-webfont.woff2') format('woff2'),
+         url('./fonts/opensans-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sans';
+    src: url('./fonts/opensans-lightitalic-webfont.woff2') format('woff2'),
+         url('./fonts/opensans-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'open_sans';
+    src: url('./fonts/opensans-light-webfont.woff2') format('woff2'),
+         url('./fonts/opensans-light-webfont.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url('./fonts/roboto-bold-webfont.woff2') format('woff2'),
+         url('./fonts/roboto-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url('./fonts/roboto-light-webfont.woff2') format('woff2'),
+         url('./fonts/roboto-light-webfont.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: open_sans;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 300;
+    line-height: 1,42;
+    font-size: 18px;
+    color: #221f1f;
+    letter-spacing: normal;
+}
+
+.wrapper {
+    min-width: 1160px;
+    min-height: 100%;
+    margin-bottom: -77px;
+}
+
+.container {
+    height: 100%;
+    width: 1160px;
+    margin: 0 auto;
+}
+
+ul{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #221f1f;
+}
+
+
+
+
+.header {
+    height: 77px;
+    background-color: #131415;
+    color: #ffffff;
+}
+
+.header__logo {
+    float: left;
+    width: 25%;
+    padding-top: 25px;
+
+}
+
+.logo-text{
+    font-family: gora_free;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    text-align: left;
+    color: #f89513;
+}
+
+.main__menu {
+    float: left;
+    width: 50%;
+    padding-top: 5px;
+    padding-left: 50px;
+}
+.menu__item {
+    display: inline-block;
+    margin-right: 28px;
+}
+
+.menu__item:last-child {
+    margin-right: 0;
+}
+
+.menu__link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    text-align: left;
+    display: inline-block;
+}
+
+.menu__icon-image {
+    margin-right: 18px;
+}
+
+.menu__link.is-active, .menu__link:hover  {
+    color: #f89513;
+}
+
+
+
+
+.phone__work-time {
+    font-weight: 700;
+    text-align: right;
+    font-style: normal;
+    float: left;
+    width: 25%;
+}
+
+.phone {
+    height: 21px;
+    margin-bottom: 20px;
+}
+.phone__number{
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 2.57;
+    text-align: left;
+    color: #ffffff;
+}
+
+.work-time {
+    
+}
+.work-time__link {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: normal;
+    color: rgba(248, 149, 19, 0.7);
+    text-decoration: underline;
+
+}
+
+
+.baner{
+    text-align: center;
+    padding-top: 79px;
+    padding-bottom: 59px;
+}
+.baner-image {
+     width: 740px;
+     height: 486px;
+    
+
+}
+
+.pozitive {
+    min-height: 570px;
+    background-color: #131415;
+    color:  #ffffff;
+    text-align: center;
+}
+.title {
+    font-size: 49px;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: normal;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.pozitive__list {
+    padding-top: 20px;
+}
+.pozitive__item {
+    display: inline-block;
+    margin-right: 80px;
+    width: 200px;
+    vertical-align: top;
+
+}
+.pozitive__item {
+    width: 195px;
+}
+.pozitive__avatar {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    background-color: #f89513;
+    left: 57px;
+}
+
+.pozitive__avatar-image { 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pozitive__content {
+    padding-top: 40px;
+}
+.pozitive__name {
+    font-size: 11px;
+    font-weight: 800;
+    font-style: normal;
+    letter-spacing: 2.6px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.pozitive__text-content {
+    color: #ffffff;
+    font-weight: normal;
+    line-height: 1.64;
+
+}
+
+.pozitive-text__list {
+    text-align: left;
+}
+.pozitive-text__list-item {
+    list-style-type: disc;
+}
+
+
+
+
+
+
+.last-news {
+    float: left;
+    width: 80%;
+
+}
+
+.news__item {
+    border-bottom: 2px solid #f5f5f5;
+    padding-bottom: 15px;
+    padding-top: 38px;
+    
+}
+
+ .news__item:last-child {
+    border-bottom: none;
+ }
+
+ .news__item:first-child {
+    padding-top: 0;
+ }
+
+.news__avatar {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+    margin: 0 20px 30px 0;
+}
+
+.news__avatar-image {
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.news__date {
+    font-family: roboto;
+    font-size: 14px;
+    color: #656464;
+}
+
+.news__name {
+    font-family: roboto;
+    font-size: 18px;
+    font-weight: 700;
+    color: #221f1f;
+    margin-top: 7px;
+    margin-bottom: 10px;
+}
+
+.news__text {
+    font-family: roboto;
+    font-size: 18px;
+    font-weight: 200;
+    color: #221f1f;
+    line-height: 1.67;
+    text-align: justify;
+}
+
+.top-news {
+    float: right;
+    width: 20%;
+    text-align: center;
+}
+.top-news__name-date {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2.4px;
+    color: #221f1f;
+}
+
+.top-news__date {
+    color: #656464;
+    padding-bottom: 24px;
+}
+
+.top-news__avatar {
+    margin-bottom: 20px;
+}
+
+.top-news__avatar:last-child {
+    margin-bottom: 0;
+}
+
+
+
+
+.page {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    color: #656464;
+    height: 140px;
+    text-align: center;
+    clear: both;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.page__number-num {
+    width: 25px;
+    height: 25px;
+    
+}
+.page__link.is-active {
+    border-radius: 3px;
+    background-color: #27273e;
+    color: #fff;
+}
+
+.page__link:hover {
+    color: #f89513;
+
+}
+
+.page__link.is-active:hover {
+    color: #fff;
+}
+.page__title {
+    display: inline-block;
+    vertical-align: middle;
+}
+.page__number {
+    display: inline-block;
+    margin-right: 3px;
+}
+
+
+.page__number-num, .page__number-up {
+    color: #221f1f;
+    font-weight: 700;
+
+}
+
+
+
+
+
+
+
+
+
+.footer {
+    height: 77px;
+    background-color: #131415;
+    color: #ffffff;
+    font-size: 14px;
+    clear: both;
+}
+
+.footer__copyright {
+    float: left;
+    width: 25%;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.footer__description  {
+    line-height: 1.42;
+}
+
+.footer__author {
+    font-weight: 300;
+    
+
+}
+
+.LoftSchool {
+    text-decoration: underline;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+
+.author_name {
+    font-weight: bold;
+}
+
+.footer__logo {
+    float: left;
+    width: 41%;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 50px;
+    
+}
+
+.footer__social {
+    float: left;
+    width: 27%;
+    text-align: right;
+    
+}
+
+.social__list {
+    padding-right: 31px;
+
+}
+
+.social__list-name {
+    font-weight: 700;
+}
+
+.social__item {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    background-color: #d0d0d0;
+    margin-right: 7px;
+}
+.social__image {
+   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.social__item:hover {
+    background-color: #f89513;
+}
+
+li.social__item:last-child {
+    margin-right: 0px;
+}
+

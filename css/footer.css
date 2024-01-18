@@ -1,0 +1,132 @@
+.footer {
+    height: 77px;
+    background-color: #131415;
+    color: #ffffff;
+    font-size: 14px;
+    clear: both;
+}
+
+.footer__copyright {
+    float: left;
+    width: 25%;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.footer__description  {
+    line-height: 1.42;
+}
+
+.footer__author {
+    font-weight: 300;
+    
+
+}
+
+.LoftSchool {
+    text-decoration: underline;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+
+.author_name {
+    font-weight: bold;
+}
+
+.footer__logo {
+    float: left;
+    width: 41%;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 50px;
+    
+}
+
+.logo-text{
+    font-family: gora_free;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    color: #f89513;
+}
+
+.footer__social {
+    float: left;
+    width: 27%;
+    text-align: right;
+    padding-top: 20px;
+    
+}
+
+.social__list {
+    padding-right: 31px;
+
+}
+
+.social__list-name {
+    font-weight: 700;
+}
+
+.social__item {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    background-color: #d0d0d0;
+    margin-right: 7px;
+}
+.social__image {
+    background-image: url(../img/sprite__social.png) ;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.icon-fb {
+    width: 6px;
+    height: 13px;
+    background-position: -10px -10px;
+}
+
+.icon-google {
+    width: 15px;
+    height: 9px;
+    background-position: -36px -10px;
+}
+
+.icon-mail {
+    width: 13px;
+    height: 9px;
+    background-position: -70px -10px;
+}
+
+.icon-twitter {
+    width: 11px;
+    height: 9px;
+    background-position: -103px -10px;
+}
+
+.icon-vk {
+    width: 12px;
+    height: 7px;
+    background-position: -134px -10px;
+}
+
+.social__item:hover {
+    background-color: #f89513;
+}
+
+li.social__item:last-child {
+    margin-right: 0px;
+}
+
+.social__list-name {
+    padding-bottom: 8px;
+}

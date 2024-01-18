@@ -1,0 +1,131 @@
+.breadcrumbs {
+    margin-left: 110px;
+    margin-top: 30px;
+}
+
+
+.breadcrumbs__item {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgba(34, 31, 31, 0.8);
+}
+
+.breadcrumbs__item:after {
+    content: '/';
+}
+
+.breadcrumbs__item:last-child:after {
+    content: '';
+}
+
+.breadcrumbs__link {
+    color: rgba(248, 149, 19, 0.8);
+    text-decoration: underline;
+    padding-right: 5px;
+}
+
+
+
+
+.services__block {
+	width: 950px;
+	margin-left: 110px;
+}
+
+.service__list {
+	margin-left: -57px;
+}
+.service__item {
+	display: inline-block;
+	vertical-align: top;
+	width: 260px;
+	min-height: 256px;
+	margin-left: 57px;
+	margin-bottom: 50px; 
+}
+
+.service__avatar {
+	position: relative;
+	width: 250px;
+	height: 153px;
+
+}
+ .service__avatar-image {
+    filter: brightness(50%);
+ }
+ 
+.service__text-img {
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: 0.7px;
+  color: #ffffff;
+  text-transform: uppercase;
+  width: 140px;
+  text-align: center;
+ }
+
+.title {
+  text-align: left;
+  padding-top: 0;
+ }
+
+.service__content {
+  margin-top: 28px;
+} 
+
+.service__name {
+  font-weight: bold;
+  margin-bottom: 10px;
+ }
+
+ .service__text {
+    font-size: 14px;
+ }
+
+
+
+
+
+.partner__list {
+  margin-left: -70px;
+  text-align: center;
+}
+ .partner__item {
+    display: inline-block;
+    height: 65px;
+    position: relative;
+    margin-top: 40px;
+    float: left;
+    width: 33.33%;
+ }
+
+ .partners {
+    width: 950px;
+    margin: 20px 0 80px 110px;
+    text-align: center;
+ }
+
+ .partner__logo {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: 0.2s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+
+ .partner__logo:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}

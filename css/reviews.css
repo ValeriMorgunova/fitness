@@ -1,0 +1,368 @@
+.breadcrumbs {
+    margin-left: 90px;
+    margin-top: 30px;
+}
+
+
+.breadcrumbs__item {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgba(34, 31, 31, 0.8);
+}
+
+.breadcrumbs__item:after {
+    content: '/';
+}
+
+.breadcrumbs__item:last-child:after {
+    content: '';
+}
+
+.breadcrumbs__link {
+    color: rgba(248, 149, 19, 0.8);
+    text-decoration: underline;
+    padding-right: 5px;
+}
+
+
+
+.title {
+    text-align: left;
+    padding-top: 0;
+}
+
+.reviews__block {
+    width: 950px;
+    margin-left: 90px;
+}
+
+
+
+.reviews__item {
+    border-bottom: 2px solid #f5f5f5;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    
+}
+
+ .reviews__item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+ }
+
+.reviews__avatar {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+    margin-right: 20px;
+}
+
+.reviews__avatar-image {
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} 
+
+.reviews__content {
+    float: left;
+    width: 700px;
+}
+.reviews__date {
+    font-family: roboto;
+    font-size: 14px;
+    color: #656464;
+}
+
+.reviews__name {
+    font-family: roboto;
+    font-size: 18px;
+    font-weight: 700;
+    color: #221f1f;
+    margin-top: 7px;
+    margin-bottom: 10px;
+}
+
+.reviews__text {
+    font-family: roboto;
+    font-size: 18px;
+    font-weight: 200;
+    color: #221f1f;
+    line-height: 1.67;
+    text-align: justify;
+}
+
+
+
+
+
+.page {
+    height: 30px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    color: #656464;
+    text-align: center;
+    clear: both;
+    margin-top: 77px;
+    margin-bottom: 65px;
+}
+
+.page__link.is-active {
+    display: block;
+    border-radius: 3px;
+    background-color: #27273e;
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+}
+
+.page__link:hover {
+    color: #f89513;
+
+}
+
+.page__link.is-active:hover {
+    color: #fff;
+}
+.page__title {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+
+}
+.page__number {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+
+.page__number-num, .page__number-up {
+    color: #221f1f;
+    font-weight: 700;
+
+}
+
+.page__link-up {
+    font-weight: bold;
+}
+
+
+
+.block-quote {
+    clear: both;
+    width: 1060px;
+    background: url(http://www.rucreatizer.unosmart.ru/assets/img/blockquote.png);
+    background-color:  #131415;
+    height: 100%;
+    color: #fff;
+    padding: 60px 200px;
+    margin: 0 auto;
+}
+
+.block-quote__text {
+    text-align: left;
+    line-height: 1.67;
+    
+}
+
+.block-quote__link {
+    color: #f89513;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+
+
+
+.rev__form {
+    background-color: #f5f5f5;
+    width: 700px;
+    min-height: 430px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: left;
+}
+
+.form__title {
+    font-size: 49px;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+input, textarea {
+    margin-top: 10px;
+}
+.form__title-text {
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+.rev-name{
+    float: left;
+    width: 50%;
+    padding-left: 55px;
+}
+
+.rev-social {
+    float: left;
+    width: 50%;
+}
+
+.rev-comment {
+    clear: both;
+    padding-left: 55px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.rev-select{
+    float: left;
+    width: 50%;
+    padding-left: 55px;
+    margin-right: 145px;
+
+}
+
+.textarea:focus {
+    border: 1px solid #f89513;
+
+}
+
+.rev__button {
+    float: left;
+    width: 50%;
+    width: 125px;
+    height: 45px;
+    border-radius: 3px;
+    background-color: #1c1f1d;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    overflow: hidden;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.rev-text {
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: left;
+    color: #221f1f;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    padding-left: 10px;
+    outline: none;
+}
+
+.rev-text:focus {
+    border: 1px solid #f89513;
+}
+
+.rev__title, .radio__label {
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: left;
+    color: #221f1f;
+}
+
+.rev-text {
+    width: 269px;
+    height: 45px;
+}
+
+.textarea {
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    color: #221f1f;
+    width: 563px;
+    height: 90px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-top: 10px;
+    outline: none;
+    resize: none;
+}
+
+.review__radio {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+
+.radio {
+  display: none;
+}
+
+.radio__fake {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: linear-gradient(to top, #ededed, #ffffff);
+  border: solid 1px #c9c9c9;
+  border-radius: 50%;
+  position: relative;
+  vertical-align: middle;
+  
+}
+
+.radio__fake:after {
+  content:'';
+  width: 0px;
+  height: 0px;
+  background-color: #f89513;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.radio__label {
+  display: inline-block;
+  margin-top: 13px;
+}
+
+.radio:checked + .radio__fake {
+  border: solid 1px #f89513;
+}
+
+.radio:checked + .radio__fake:after {
+  width: 8px;
+  height: 8px;
+}
+
+
+
+
+
+
